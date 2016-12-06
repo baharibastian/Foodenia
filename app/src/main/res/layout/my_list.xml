@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dip">
+
+    <ImageView android:id="@+id/fotoTempat"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/action_settings"/>
+    <ImageView android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:background="@drawable/transparent_background"
+        android:contentDescription="@string/action_settings"/>
+    <TextView
+        android:id="@+id/namaPercetakan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dip"
+        android:paddingBottom="30dip"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="#000"/>
+    <TextView android:id="@+id/alamatPercetakan"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:paddingLeft="10dip"
+        android:paddingBottom="13dip"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
